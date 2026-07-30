@@ -41,11 +41,11 @@ header {
   width: min(1200px, 90%);
   margin: auto;
 }
-.hero {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  align-items: center;
+.hero{
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:50px;
+    align-items:center;
 }
 .hero-content {
   margin: 0 15px;
@@ -53,21 +53,34 @@ header {
   font-size: 1.5rem;
   font-weight: 300;
 }
-.hero-content span {
-  padding: 10px;
+.hero-image{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
 }
 
-.social {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
+.social{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    margin-top:20px;
+    width:100%;
 }
-.social a {
-  padding: 12px 18px;
+
+.social a{
+    width:100%;
+    max-width:350px;
+    text-align:center;
+    padding:12px 18px;
 }
-.social {
-  padding: 5px 0;
-}
+
 .view-ponit p {
   font-size: 1rem;
 }
@@ -113,13 +126,12 @@ ul.nag li a.active {
   background-color: #020813;
 }
 
-.jump {
-  background-color: #1b3a6b;
-  color: #ffffff;
-  padding: 10px 5px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
+.jump{
+    background:#1b3a6b;
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    border-radius:6px;
 }
 .card {
   flex: 1 1 350px;
@@ -299,7 +311,19 @@ footer {
   .hero {
     text-align: center;
     gap: 25px;
+    
+    grid-template-columns:1fr;
+}
   }
+
+
+
+.hero-content{
+    text-align:center;
+}
+
+
+  
   .artist {
     grid-template-columns: 1fr;
   }
@@ -340,7 +364,7 @@ footer {
   .view-point {
     font-size: 1.2rem;
   }
-}
+
 @media (min-width: 100px) and (max-width: 480px) {
   body {
     font-size: 1.5rem;
