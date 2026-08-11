@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joseph Igweike | Web Developer</title>
 
-<meta
-  name="description"
-  content="I'm Joseph Igweike, a web developer passionate about building beautiful and responsive websites with HTML, CSS and JavaScript."
-/>
+    <meta
+      name="description"
+      content="I'm Joseph Igweike, a web developer passionate about building beautiful and responsive websites with HTML, CSS and JavaScript."
+    />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Joseph Igweike | Web Developer">
-<meta
-  property="og:description"
-  content="Explore my portfolio, skills, projects, dream goals and more."
->
-<meta property="og:image" content="imgi_3_avatar_g.jpg">
-<meta property="og:url" content="https://yourwebsite.com">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joseph Igweike | Web Developer" />
+    <meta
+      property="og:description"
+      content="Explore my portfolio, skills, projects, dream goals and more."
+    />
+    <meta property="og:image" content="mypic.png" />
+    <meta property="og:url" content="https://yourwebsite.com" />
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Joseph Igweike | Web Developer">
-<meta
-  name="twitter:description"
-  content="Explore my portfolio, skills, projects and experiences."
->
-<meta name="twitter:image" content="image.png">
-    <title>Portfolio</title>
-    <link rel="ICON" href="ICON.jpg" type="image/jpg" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Joseph Igweike | Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Explore my portfolio, skills, projects and experiences."
+    />
+    <meta name="twitter:image" content="mypic.png" />
+
+    <link rel="icon" href="ICON.jpg" type="image/jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -41,197 +41,253 @@
   </head>
 
   <body>
-    <!-- THIS IS MY BOOKMARK -->
-
     <header class="header">
-      <ul class="menu">
-        <li><a href="#ABOUT ME" class="active"> ABOUT ME </a></li>
-        <li><a href="#MY SKILL">MY SKILL</a></li>
-        <li><a href="#likes-dislikes">LIKES-DISLIKES</a></li>
-        <li><a href="#DREAM FUTURE"> DREAM FUTURE</a></li>
-        <li><a href="#DREAM CAR">DREAM CAR</a></li>
-        <li><a href="#FAVORITE ARTIST">FAVORITE ARTIST</a></li>
-      </ul>
+      <div class="nav-inner">
+        <a href="#ABOUT ME" class="brand">Joseph</a>
+        <ul class="menu">
+          <li><a href="#ABOUT ME" class="active">ABOUT ME</a></li>
+          <li><a href="#MY SKILL">MY SKILL</a></li>
+          <li><a href="#likes-dislikes">LIKES-DISLIKES</a></li>
+          <li><a href="#DREAM CAR">DREAM CAR</a></li>
+          <li><a href="#FAVORITE ARTIST">FAVORITE ARTIST</a></li>
+          <li><a href="#DREAM COUNTRY">DREAM COUNTRY</a></li>
+          <li><a href="#PROJECTS">PROJECTS</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+      </div>
     </header>
 
     <main class="container">
       <section class="hero">
         <div class="hero-image">
-          <img src="image.png" alt="my photo" />
-
-           <div class="social">
-          <a href="https://praiseigweike@gmail.com" class="jump"
-            >praiseigweike@gmail.com</a
-          >
-
-          <a href="https://wa.me/2347015822899" target="_blank" class="jump">
-            whatsapp</a
-          >
-
-          <a href="https://x.com/PalakGudife" target="_blank" class="jump"
-            >Twitter</a
-          >
-        </div>
+          <img src="image.png" alt="Joseph Igweike portrait" />
+          <div class="social">
+            <a href="mailto:praiseigweike@gmail.com" class="jump"
+              >praiseigweike@gmail.com</a
+            >
+            <a href="https://wa.me/2347015822899" target="_blank" class="jump"
+              >Whatsapp</a
+            >
+            <a href="https://x.com/PalakGudife" target="_blank" class="jump"
+              >Twitter</a
+            >
+          </div>
         </div>
 
         <div class="hero-content">
+          <p class="eyebrow">Web Developer • Creative Problem Solver</p>
           <h1>
-            <span> Hi <br /></span>
-
-            <span>I'm Joseph, a</span>
-            <br />
-            <span>Web Developer</span>
+            Hi, I'm <span>Joseph</span><br />
+            a modern web creator.
           </h1>
+          <p class="hero-copy">
+            I build clean, responsive websites and strong front-end experiences
+            using HTML, CSS, JavaScript and JQUERY.
+          </p>
         </div>
-
-       
       </section>
 
-      <section class="view-ponit">
-        <section class="about">
-          <h2 id="ABOUT ME" class="small">ABOUT ME</h2>
+      <section class="feature-panel">
+        <div class="feature-card">
+          <h3>Responsive design</h3>
+          <p>Layouts that work beautifully on mobile, tablet, and desktop.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Modern interfaces</h3>
+          <p>
+            Clean visuals and smooth interactions for a polished user
+            experience.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast performance</h3>
+          <p>Optimized content and structure for quick loading pages.</p>
+        </div>
+      </section>
 
+      <section class="view-ponit content-grid">
+        <article class="about section-card">
+          <h2 id="ABOUT ME" class="small">ABOUT ME</h2>
           <p>
             I'm Igweike Joseph-praise, a web developer from Enugu State,
             Nigeria. I build clean, beautiful digital products and turn creative
             ideas into seamless web experiences. When I'm not coding, I explore
-            new technologies and mentor upcoming developers in my community.
+            new technologies and mentor upcoming developers.
           </p>
-        </section>
+        </article>
 
-        <section class="skills">
+        <article class="skills section-card">
           <h2 id="MY SKILL" class="small">MY SKILL</h2>
-
           <p>
-            I'm proficient in HTML, CSS, and JavaScript, with strong experience
-            in React.js for building dynamic interfaces. On the back end, I work
-            with Node.js and Express, and I'm comfortable with databases like
-            MongoDB and PostgreSQL. I also use Git, Figma, and modern deployment
-            tools to deliver polished, production-ready projects.
+            Proficient in HTML, CSS, JavaScript, and jQuery. I also work with
+            PHP, databases, and GitHub.
           </p>
-        </section>
+          <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>jQuery</span>
+            <span>PHP</span>
+            <span>Databases</span>
+            <span>GitHub</span>
+          </div>
+        </article>
 
-        <section class="likes-dislikes" id="likes-dislikes">
+        <section class="likes-dislikes card-grid" id="likes-dislikes">
           <div class="card likes">
             <h2>LIKES</h2>
             <ul>
-              <li>Dark mode &#128514;</li>
-              <ul>
-                <li>while raining</li>
-
-                <li>Layout bug at 1am</li>
-              </ul>
-
-              <li>Coffee &#128151;</li>
-              <ul>
-                <li>Late nights</li>
-                <br />
-                <li>creative ideas</li>
-              </ul>
+              <li>Dark mode</li>
+              <li>Rainy coding sessions</li>
+              <li>Coffee-fueled creativity</li>
+              <li>Finding elegant solutions</li>
             </ul>
           </div>
 
           <div class="card dislikes">
             <h2>DISLIKES</h2>
-
-            <ol>
-              <li>Ignoring Accessibility &#128514;</li>
-              <ol>
-                <li>Hard-coded Values</li>
-                <br />
-                <li>creative ideas</li>
-              </ol>
-              <li>Vague error messages &#128514;</li>
-              <br />
-              <li>Unoptimized Performance &#128514;</li>
-            </ol>
+            <ul>
+              <li>Poor accessibility</li>
+              <li>Hard-coded values</li>
+              <li>Vague error messages</li>
+              <li>Unoptimized performance</li>
+            </ul>
           </div>
         </section>
 
-        <section class="future">
-          <!-- <h2 id="DREAM FUTURE" class="small">DREAM FUTURE</h2> -->
-
+        <article class="future section-card">
+          <h2 id="DREAM FUTURE" class="small">DREAM FUTURE</h2>
           <p>
-            I want to grow from practicing <strong> HTML and CSS</strong> and
-            CSS into building full, real world applications-products people
-            actually open everyday, not just demo pages.
-            <br />
-            Long trem, i see myself as a full-stack developer, comfortable on
-            both sides of the stack, contributing to open source, and eventually
-            mentoring other student who are exactly where i am right now: just
-            getting started.
+            I want to grow from practicing HTML and CSS into building full
+            real-world applications that people use every day. In the long term,
+            I see myself as a full-stack developer contributing to open source
+            and mentoring developers who are just getting started.
           </p>
-        </section>
+        </article>
 
-        <h2 id="DREAM CAR" class="small">DREAM CAR</h2>
-        <img
-          src="image copy.png"
-          width="250"
-          alt="car iocn "
-          class="hero-image"
-        />
+        <article class="dream-car section-card">
+          <h2 id="DREAM CAR" class="small">DREAM CAR</h2>
+          <img
+            src="image copy.png"
+            width="250"
+            alt="Dream car"
+            class="dream-visual"
+          />
+        </article>
 
-        <h2 id="FAVORITE ARTIST" class="small">FAVORITE ARTIST</h2>
-        <div class="artist-container">
-          <img class="artist-image" src="image copy 2.png" alt="car iocn" />
-        </div>
+        <article class="favorite-artist section-card">
+          <h2 id="FAVORITE ARTIST" class="small">FAVORITE ARTIST</h2>
+          <div class="artist-container">
+            <img
+              class="artist-image"
+              src="image copy 2.png"
+              alt="Favorite artist"
+            />
+          </div>
+        </article>
       </section>
 
       <section class="artist">
-        <div class="artist-image">
-          <!-- <video class="artist-container img" width="420" height="500" controls>
-            <source src="dog.mp4" type="video/mp4" />
-          </video> -->
-
-          <audio controls src="Dunsin''s song.mp3" type="video/mp3"></audio>
+        <div class="artist-media">
+          <audio controls src="Dunsin''s song.mp3"></audio>
         </div>
       </section>
 
-      <h2 id="DREAM COUNTRY" class="small">DREAM COUNTRY</h2>
-
-      <div class="dropdown profile-box">
-        <button class="dropbtn">DREAM COUNTRY</button>
-        <div class="dropdown-content">
-          <a href="#"> Canada</a>
-          <a href="#"> USA</a>
-          <a href="#"> Norway</a>
-          <a href="#"> United Kingdom</a>
+      <section class="dropdown-panel">
+        <h2 id="DREAM COUNTRY" class="small">DREAM COUNTRY</h2>
+        <div class="dropdown profile-box">
+          <button class="dropbtn">Select a country</button>
+          <div class="dropdown-content">
+            <a href="#canada-gallery">Canada</a>
+            <a href="#usa-gallery">USA</a>
+            <a href="#norway-gallery">Norway</a>
+            <a href="#uk-gallery">United Kingdom</a>
+          </div>
         </div>
-      </div>
-      <br />
+      </section>
 
       <section class="gallery">
         <div class="gallery-item">
-          <a href="download (6).jpg" target="_blank">
-            <img src="download (6).jpg" alt="Canada" class="gallery-img"
-          /></a>
-
+          <a href="download (6).jpg" target="_blank" id="canada-gallery">
+            <img src="download (6).jpg" alt="Canada" class="gallery-img" />
+          </a>
           <div class="desc">CANADA</div>
         </div>
 
         <div class="gallery-item">
-          <a href="download (7).jpg" target="_blank">
-            <img src="download (7).jpg" alt="USA" class="gallery-img"
-          /></a>
+          <a href="download (7).jpg" target="_blank" id="usa-gallery">
+            <img src="download (7).jpg" alt="USA" class="gallery-img" />
+          </a>
           <div class="desc">USA</div>
         </div>
 
         <div class="gallery-item">
-          <a href="Norway 🇳🇴 Flag.jpg" target="_blank">
-            <img src="Norway 🇳🇴 Flag.jpg" alt="Norway" class="gallery-img"
-          /></a>
+          <a href="Norway 🇳🇴 Flag.jpg" target="_blank" id="norway-gallery">
+            <img src="Norway 🇳🇴 Flag.jpg" alt="Norway" class="gallery-img" />
+          </a>
           <div class="desc">Norway</div>
         </div>
+
         <div class="gallery-item">
-          <a href="london, uk.jpg" target="_blank">
-            <img src="london, uk.jpg" alt="london" class="gallery-img"
-          /></a>
+          <a href="london, uk.jpg" target="_blank" id="uk-gallery">
+            <img src="london, uk.jpg" alt="London" class="gallery-img" />
+          </a>
           <div class="desc">London</div>
         </div>
       </section>
+
+      <section class="projects section-card" id="PROJECTS">
+        <h2 class="small">PROJECT HIGHLIGHTS</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Portfolio Redesign</h3>
+            <p>
+              Built a responsive site with polished visuals, clean navigation,
+              and fast performance.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Interactive UI</h3>
+            <p>
+              Developed a UI using JavaScript and jQuery with smooth
+              interactions and modern styling.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Database Prototype</h3>
+            <p>
+              Created a database-connected layout ready for backend integration
+              with PHP and data-driven content.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section-card" id="CONTACT">
+        <h2 class="small">LET'S WORK TOGETHER</h2>
+        <p>
+          Ready to build something great? Send a message if you'd like help with
+          a website, app, or design project.
+        </p>
+        <p class="contact-info">
+          WhatsApp:
+          <a href="https://wa.me/2347015822899" target="_blank">07015822899</a>
+        </p>
+        <p class="contact-info">
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/joseph-praise-ubankenna-igreike"
+            target="_blank"
+            >joseph-praise (Ubankenna) igweike</a
+          >
+        </p>
+      </section>
     </main>
-    <footer>craft while learning HTML and CSS</footer>
-    <footer>&copy:2026 Igweike Joseph-praise</footer>
-    <footer>Welcome to Igweike Joseph-praise &trade;</footer>
+
+    <footer class="site-footer">
+      <p>Craft while learning HTML and CSS</p>
+      <p>&copy; 2026 Igweike Joseph-praise</p>
+      <p>Welcome to Igweike Joseph-praise ™</p>
+    </footer>
   </body>
 </html>
